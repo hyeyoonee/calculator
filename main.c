@@ -1,4 +1,4 @@
-#include <stdio.h>
+﻿#include <stdio.h>
  
 int add(int, int);
 int sub(int, int);
@@ -11,6 +11,8 @@ int main(int argc, char* argv[])
 	char operator;
 	
 	printf("Please enter a expression (ex> 1 + 2)");
+	printf("Please enter a ");
+	printf("수식을 입력하세요");
 	scanf("%d %c %d", &a, &operator, &b);
 	
 	switch (operator)
@@ -61,4 +63,9 @@ int div(int a, int b)
 int dummy()
 {
 	return 0;
+}
+
+int zero()
+{
+	return 0 ;
 }
