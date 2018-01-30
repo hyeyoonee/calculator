@@ -1,2 +1,3 @@
-conflict1
+conflict2 conflict1
+>>>>>>> develop
 # calculator
