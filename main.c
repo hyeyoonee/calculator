@@ -62,3 +62,8 @@ int dummy()
 {
 	return 0;
 }
+
+int zero()
+{
+	return 0 ;
+}
